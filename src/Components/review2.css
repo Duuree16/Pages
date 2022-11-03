@@ -1,0 +1,17 @@
+.Container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../imgs/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Logo {
+    width: 10vw;
+    height: 10vw;
+    background-image: url("../imgs/Group\ 22.svg");
+    background-repeat: no-repeat;
+    background-size: 5vw 5vw;
+    margin: 1vw;
+
+}
