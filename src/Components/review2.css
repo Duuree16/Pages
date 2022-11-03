@@ -12,6 +12,37 @@
     background-image: url("../imgs/Group\ 22.svg");
     background-repeat: no-repeat;
     background-size: 5vw 5vw;
-    margin: 1vw;
+    margin: 5vw;
+    margin-top: 1vw;
 
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contain {
+    display: flex;
+    gap: 2vw;
+    flex-direction: row;
+    margin: 2vw;
+    margin-right: 10vw
+}
+
+.head {
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: underline rgb(207, 225, 255);
+}
+
+.headSpecial {
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+    color: gray;
+    padding: 0.5vw;
+    height: 1.4vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid gray;
 }
