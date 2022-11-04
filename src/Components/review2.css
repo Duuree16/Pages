@@ -1,9 +1,10 @@
 .Container {
     width: 100vw;
     height: 100vh;
-    background-image: url("../imgs/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    overflow-x: hidden;
+        overflow-y: hidden;
+        position: fixed;
+        top: 0;
 }
 
 .Logo {
@@ -16,11 +17,24 @@
     margin-top: 1vw;
 
 }
+.background {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    left: 0vw;
+    width: 100vw;
 
+}
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 5vw;
+    }
+    
+    .Container2 {
+        width: 100vw;
+        height: 95vh;
 }
 
 .contain {
@@ -45,4 +59,43 @@ header {
     height: 1.4vw;
     border-radius: 0.5vw;
     border: 0.1vw solid gray;
+}
+.bigText {
+    color: white;
+    width: 40vw;
+    margin-left: 10vw;
+    font-size: 4vw;
+    margin-top: 6vw;
+}
+
+.smolText {
+    color: white;
+    width: 35vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+    margin-top: 1.5vw;
+
+}
+
+.Imput {
+    margin-left: 10vw;
+    gap: 1vw;
+}
+
+.Email {
+    padding: 1vw;
+    margin-right: 1vw;
+    border-radius: 0.4vw;
+    outline: 0ch;
+    border: none;
+    font-size: 1vw;
+}
+
+.ButtonAccess {
+    font-size: 1vw;
+    background-color: #0BBEF2;
+    padding: 1vw;
+    outline: 0ch;
+    border: 0ch;
+    border-radius: 0.4vw;
 }
