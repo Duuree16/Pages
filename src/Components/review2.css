@@ -1,10 +1,27 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .Container {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-        overflow-y: hidden;
-        position: fixed;
-        top: 0;
+    /* overflow-y: hidden; */
+    position: fixed;
+    top: 0;
+}
+
+html {
+    background-color: #F5F7FA;
+}
+
+.outers {
+    background-color: rgb(129, 129, 129);
+}
+
+.yes {
+    background-color: transparent;
+
 }
 
 .Logo {
@@ -17,24 +34,57 @@
     margin-top: 1vw;
 
 }
+
 .background {
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    left: 0vw;
     width: 100vw;
+    height: 100vh;
+    background-image: url("../imgs/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
 header {
     display: flex;
+    position: absolute;
+    top: 0;
+    width: 100vw;
     flex-direction: row;
     justify-content: space-between;
     height: 5vw;
-    }
-    
-    .Container2 {
-        width: 100vw;
-        height: 95vh;
+    padding-bottom: 2vw;
+    z-index: 1000;
+    padding-top: -1vw;
+}
+
+.Container2 {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+}
+
+.Container3,
+.Container4 {
+    position: absolute;
+    top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    border: 3px solid;
+}
+
+.Container4 {
+    top: 200vh;
+}
+
+.aguulagch {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .contain {
@@ -46,7 +96,7 @@ header {
 }
 
 .head {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.3vw;
     text-decoration: underline rgb(207, 225, 255);
 }
@@ -60,12 +110,21 @@ header {
     border-radius: 0.5vw;
     border: 0.1vw solid gray;
 }
+
 .bigText {
     color: white;
     width: 40vw;
     margin-left: 10vw;
     font-size: 4vw;
-    margin-top: 6vw;
+    margin-top: 15vw;
+}
+
+.bigText2 {
+    color: rgb(0, 0, 0);
+    width: 30vw;
+    margin-left: 10vw;
+    font-size: 3vw;
+    margin-top: 15vw;
 }
 
 .smolText {
@@ -74,6 +133,38 @@ header {
     margin-left: 10vw;
     font-size: 2vw;
     margin-top: 1.5vw;
+
+}
+
+.smolText2,
+.smolText3 {
+    width: 30vw;
+    margin-left: 10vw;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+}
+
+.display {
+    position: absolute;
+    right: 0;
+    top: -5vw;
+    height: 35vw;
+}
+
+.displaymini {
+    position: absolute;
+    right: 20vw;
+    top: -8vw;
+    height: 10vw;
+}
+
+.smolText2 {
+    color: rgb(0, 0, 0);
+}
+
+.smolText3 {
+    text-decoration: underline rgb(29, 132, 251);
+    color: rgb(29, 132, 251);
 
 }
 
