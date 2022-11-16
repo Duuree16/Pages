@@ -1,18 +1,19 @@
 import './App.css';
-import { Review2, Contact, Services, Product, Log } from './Components';
 import { Link, BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Container } from 'react-bootstrap';
+import {Blog, Head,Header,Footer,Post} from './Pieces'
 function App() {
-  let text = 'Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place.'
   return (
     <BrowserRouter>
       <div className="App">
+        <Container>
+      <Header/>
         <Routes>
-          <Route path="/" element={<Review2 />} />
-          <Route path="/products" element={<Product />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/log" element={<Log />} />
+          <Route path="/" element={<Head />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/post" element={<Post />} />
         </Routes>
+        </Container>
       </div>
     </BrowserRouter>
   );

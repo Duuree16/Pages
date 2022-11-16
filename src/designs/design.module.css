@@ -1,0 +1,97 @@
+* {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    padding: 0.5vw;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    z-index: 100;
+    margin-left: 2vw
+}
+
+.header2 {
+    display: flex;
+    gap: 1vw;
+
+}
+
+.headerText2,
+.headerText,
+.headerTextBorder {
+    color: #F5F7FA;
+    font-size: 1.5vw;
+    text-decoration: underline #F5F7FA;
+    padding: 1vw;
+}
+
+.headerText2 {
+    color: black;
+}
+
+.headerTextBorder {
+    text-decoration: underline #c1c1c1;
+    color: #c1c1c1;
+    border: #c1c1c1 2px solid;
+    border-radius: 1vw;
+    margin-right: 1vw;
+}
+
+.home {
+    height: 530vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display1,
+.display2,
+.display3,
+.display4,
+.display5 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F7FA;
+}
+
+.display1 {
+    padding-top: 15vh;
+    background-image: url('../imgs/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.svg');
+    background-size: cover;
+
+}
+
+.mainText {
+    color: white;
+    margin: 2vw;
+    margin-left: 10vw;
+    font-size: 3vw;
+    width: 25vw;
+}
+
+.smallText {
+    color: white;
+    margin: 2vw;
+    margin-left: 10vw;
+    font-size: 1.3vw;
+    width: 25vw;
+
+}
+
+.input {
+    margin-top: 0.5vw;
+    width: 16vw;
+    margin-left: 10vw;
+    padding: 0.4vw;
+    margin-right: 1vw;
+
+}
